@@ -1,0 +1,83 @@
+.container {
+  font-family: 'Open Sans';
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+    
+}
+
+.card-holder {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 180px;
+  height: 130px;
+  background-color: #3cb878;
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+  box-shadow: 0px 0px 3px 2px grey;
+  
+}
+
+
+.newsletter-form{
+  color: grey;
+}
+#terms {
+  position: relative;
+  top: 2px;
+  left: 0px;
+}
+.newsletter-form {
+  border: solid thin #cfcfcf;
+  padding: 10px;
+  border-radius: 3px;
+  position: relative;
+}
+.newsletter-form h3 {
+  margin-top: 0px;
+}
+.newsletter-form #email {
+  display: block;
+  width: 100%;
+  border: solid thin #cfcfcf;
+  height: 30px;
+  padding-left: 3px;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+.newsletter-form button {
+  display: block;
+  width: 100%;
+  background-color: #3cb878;
+  border: 0;
+  color: white;
+  height: 30px;
+  margin-top: 5px;
+}
+.closing-x button{
+  background: none;
+  color: black;
+  cursor: pointer;
+}
+.closing-x {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+}
+#question-circle {
+  height: 100px;
+  width: 100px;
+  background-color: #3cb878;
+  border-radius: 50%;
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  
+  
+}
